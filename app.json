@@ -7,6 +7,9 @@
     "icon": "./assets/images/icon.png",
     "scheme": "lepel",
     "userInterfaceStyle": "automatic",
+    "runtimeVersion": {
+      "policy": "54"
+    },
     "ios": {
       "icon": "./assets/expo.icon"
     },
@@ -34,7 +37,8 @@
             "imageWidth": 76
           }
         }
-      ]
+      ],
+      "expo-sqlite"
     ],
     "experiments": {
       "typedRoutes": true,
